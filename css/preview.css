@@ -1,0 +1,115 @@
+.preview-btn
+{
+    float: right;
+    margin-top: 1.5em;
+    margin-right: 1em;
+    padding: 0.7em 1.2em;
+    background-color: #89ba2c;
+    border: none;
+    font-size: 1em;
+    color: #ffffff;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+}
+
+.preview-btn:hover
+{
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+
+
+#preview-container
+{
+    height: 100%;
+    width: 600px;
+    overflow: hidden;
+    background-color: #262626;
+    position: absolute;
+    right: -600px;
+}
+
+#preview
+{
+    background-image: url(../img/cell.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    height: 77.5%;
+    width: 80%;
+    margin: 7.5% 10% 10% 10%;
+}
+
+.open{
+    right: 0px !important;
+}
+.shrink{
+    width: -webkit-calc(100% - 600px) !important;
+    width:    -moz-calc(100% - 600px) !important;
+    width:         calc(100% - 600px) !important;
+}
+.preview-transition{
+    
+  -webkit-transition: right 0.5s ease-in-out;  /* Chrome 1-25, Safari 3.2+ */
+     -moz-transition: right 0.5s ease-in-out;  /* Firefox 4-15 */
+       -o-transition: right 0.5s ease-in-out;  /* Opera 10.50–12.00 */
+          transition: right 0.5s ease-in-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+
+}
+.content-transition{
+    
+  -webkit-transition: width 0.5s ease-in-out;  /* Chrome 1-25, Safari 3.2+ */
+     -moz-transition: width 0.5s ease-in-out;  /* Firefox 4-15 */
+       -o-transition: width 0.5s ease-in-out;  /* Opera 10.50–12.00 */
+          transition: width 0.5s ease-in-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+
+}
+
+#preview-close
+{
+    width: 100%;
+    height: 5%;
+}
+
+.close {
+  position: absolute;
+  left: 28px;
+  top: 28px;
+  width: 36px;
+  height: 36px;
+  opacity: 0.5;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 17px;
+  content: ' ';
+  height: 36px;
+  width: 5px;
+  background-color: red;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+#preview-content
+{
+    background-color: white;
+    margin-left: 69px;
+    margin-top: 47px;
+    height: 66%;
+    width: 57%;
+    position: absolute;
+}

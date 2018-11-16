@@ -1,0 +1,228 @@
+[07-Oct-2018 21:17:01 UTC] PHP Notice:  Undefined variable: lat in C:\wamp64\www\museum_development\php\saveItem.php on line 37
+[07-Oct-2018 21:17:01 UTC] PHP Stack trace:
+[07-Oct-2018 21:17:01 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\saveItem.php:0
+[07-Oct-2018 21:17:01 UTC] PHP Notice:  Undefined variable: lon in C:\wamp64\www\museum_development\php\saveItem.php on line 37
+[07-Oct-2018 21:17:01 UTC] PHP Stack trace:
+[07-Oct-2018 21:17:01 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\saveItem.php:0
+[08-Oct-2018 11:09:57 UTC] PHP Notice:  Object of class stdClass could not be converted to int in C:\wamp64\www\museum_development\php\saveLocation.php on line 39
+[08-Oct-2018 11:09:57 UTC] PHP Stack trace:
+[08-Oct-2018 11:09:57 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\saveLocation.php:0
+[08-Oct-2018 11:14:11 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in C:\wamp64\www\museum_development\php\saveLocation.php on line 41
+[08-Oct-2018 11:14:11 UTC] PHP Stack trace:
+[08-Oct-2018 11:14:11 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\saveLocation.php:0
+[08-Oct-2018 11:16:41 UTC] PHP Notice:  Undefined property: stdClass::$name in C:\wamp64\www\museum_development\php\saveLocation.php on line 41
+[08-Oct-2018 11:16:41 UTC] PHP Stack trace:
+[08-Oct-2018 11:16:41 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\saveLocation.php:0
+[08-Oct-2018 11:16:41 UTC] PHP Notice:  Undefined property: stdClass::$name in C:\wamp64\www\museum_development\php\saveLocation.php on line 41
+[08-Oct-2018 11:16:41 UTC] PHP Stack trace:
+[08-Oct-2018 11:16:41 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\saveLocation.php:0
+[08-Oct-2018 11:17:42 UTC] PHP Notice:  Undefined property: stdClass::$name in C:\wamp64\www\museum_development\php\saveLocation.php on line 41
+[08-Oct-2018 11:17:42 UTC] PHP Stack trace:
+[08-Oct-2018 11:17:42 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\saveLocation.php:0
+[08-Oct-2018 11:17:42 UTC] PHP Notice:  Undefined property: stdClass::$name in C:\wamp64\www\museum_development\php\saveLocation.php on line 41
+[08-Oct-2018 11:17:42 UTC] PHP Stack trace:
+[08-Oct-2018 11:17:42 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\saveLocation.php:0
+[09-Oct-2018 00:00:42 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp64\www\museum_development\php\saveLocation.php on line 39
+[09-Oct-2018 00:00:42 UTC] PHP Stack trace:
+[09-Oct-2018 00:00:42 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\saveLocation.php:0
+[09-Oct-2018 00:07:19 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp64\www\museum_development\php\saveLocation.php on line 39
+[09-Oct-2018 00:07:19 UTC] PHP Stack trace:
+[09-Oct-2018 00:07:19 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\saveLocation.php:0
+[10-Oct-2018 01:20:39 UTC] PHP Notice:  Undefined index: $description in C:\wamp64\www\museum_development\php\saveLocation.php on line 64
+[10-Oct-2018 01:20:39 UTC] PHP Stack trace:
+[10-Oct-2018 01:20:39 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\saveLocation.php:0
+[10-Oct-2018 01:20:39 UTC] PHP Warning:  sizeof() expects at least 1 parameter, 0 given in C:\wamp64\www\museum_development\php\saveLocation.php on line 94
+[10-Oct-2018 01:20:39 UTC] PHP Stack trace:
+[10-Oct-2018 01:20:39 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\saveLocation.php:0
+[10-Oct-2018 01:20:39 UTC] PHP   2. sizeof() C:\wamp64\www\museum_development\php\saveLocation.php:94
+[10-Oct-2018 01:20:39 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\museum_development\php\saveLocation.php on line 94
+[10-Oct-2018 01:20:39 UTC] PHP Stack trace:
+[10-Oct-2018 01:20:39 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\saveLocation.php:0
+[10-Oct-2018 02:07:20 UTC] PHP Notice:  Undefined index: $description in C:\wamp64\www\museum_development\php\saveLocation.php on line 64
+[10-Oct-2018 02:07:20 UTC] PHP Stack trace:
+[10-Oct-2018 02:07:20 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\saveLocation.php:0
+[10-Oct-2018 03:12:39 UTC] PHP Notice:  Undefined index: tmp-name in C:\wamp64\www\museum_development\php\saveLocation.php on line 76
+[10-Oct-2018 03:12:39 UTC] PHP Stack trace:
+[10-Oct-2018 03:12:39 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\saveLocation.php:0
+[10-Oct-2018 03:12:39 UTC] PHP Notice:  Undefined index: tmp-name in C:\wamp64\www\museum_development\php\saveLocation.php on line 76
+[10-Oct-2018 03:12:39 UTC] PHP Stack trace:
+[10-Oct-2018 03:12:39 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\saveLocation.php:0
+[10-Oct-2018 03:12:39 UTC] PHP Notice:  Undefined index: tmp-name in C:\wamp64\www\museum_development\php\saveLocation.php on line 76
+[10-Oct-2018 03:12:39 UTC] PHP Stack trace:
+[10-Oct-2018 03:12:39 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\saveLocation.php:0
+[11-Oct-2018 22:15:19 UTC] PHP Notice:  Undefined index: lat in C:\wamp64\www\museum_development\php\saveItem.php on line 25
+[11-Oct-2018 22:15:19 UTC] PHP Stack trace:
+[11-Oct-2018 22:15:19 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\saveItem.php:0
+[07-Nov-2018 04:55:52 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in C:\wamp64\www\museum_development\php\getLocation.php on line 37
+[07-Nov-2018 04:55:52 UTC] PHP Stack trace:
+[07-Nov-2018 04:55:52 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\getLocation.php:0
+[07-Nov-2018 04:55:52 UTC] PHP   2. mysqli_fetch_assoc() C:\wamp64\www\museum_development\php\getLocation.php:37
+[10-Nov-2018 09:55:07 UTC] PHP Notice:  Undefined variable: filePath in C:\wamp64\www\museum_development\php\deleteTour.php on line 40
+[10-Nov-2018 09:55:07 UTC] PHP Stack trace:
+[10-Nov-2018 09:55:07 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteTour.php:0
+[10-Nov-2018 12:08:28 UTC] PHP Notice:  Use of undefined constant data - assumed 'data' in C:\wamp64\www\museum_development\php\deleteTour.php on line 40
+[10-Nov-2018 12:08:28 UTC] PHP Stack trace:
+[10-Nov-2018 12:08:28 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteTour.php:0
+[10-Nov-2018 12:09:18 UTC] PHP Notice:  Use of undefined constant data - assumed 'data' in C:\wamp64\www\museum_development\php\deleteTour.php on line 40
+[10-Nov-2018 12:09:18 UTC] PHP Stack trace:
+[10-Nov-2018 12:09:18 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteTour.php:0
+[10-Nov-2018 12:11:11 UTC] PHP Notice:  Use of undefined constant data - assumed 'data' in C:\wamp64\www\museum_development\php\deleteTour.php on line 40
+[10-Nov-2018 12:11:11 UTC] PHP Stack trace:
+[10-Nov-2018 12:11:11 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteTour.php:0
+[10-Nov-2018 21:01:05 UTC] PHP Notice:  Use of undefined constant data - assumed 'data' in C:\wamp64\www\museum_development\php\deleteTour.php on line 40
+[10-Nov-2018 21:01:05 UTC] PHP Stack trace:
+[10-Nov-2018 21:01:05 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteTour.php:0
+[10-Nov-2018 21:01:05 UTC] PHP Warning:  Illegal string offset 'image' in C:\wamp64\www\museum_development\php\deleteTour.php on line 40
+[10-Nov-2018 21:01:05 UTC] PHP Stack trace:
+[10-Nov-2018 21:01:05 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteTour.php:0
+[10-Nov-2018 21:35:30 UTC] PHP Notice:  Use of undefined constant row - assumed 'row' in C:\wamp64\www\museum_development\php\deleteTour.php on line 34
+[10-Nov-2018 21:35:30 UTC] PHP Stack trace:
+[10-Nov-2018 21:35:30 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteTour.php:0
+[10-Nov-2018 21:37:26 UTC] PHP Notice:  Use of undefined constant row - assumed 'row' in C:\wamp64\www\museum_development\php\deleteTour.php on line 34
+[10-Nov-2018 21:37:26 UTC] PHP Stack trace:
+[10-Nov-2018 21:37:26 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteTour.php:0
+[10-Nov-2018 21:37:26 UTC] PHP Warning:  Illegal string offset 'image' in C:\wamp64\www\museum_development\php\deleteTour.php on line 34
+[10-Nov-2018 21:37:26 UTC] PHP Stack trace:
+[10-Nov-2018 21:37:26 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteTour.php:0
+[10-Nov-2018 22:22:34 UTC] PHP Notice:  Use of undefined constant result - assumed 'result' in C:\wamp64\www\museum_development\php\deleteTour.php on line 54
+[10-Nov-2018 22:22:34 UTC] PHP Stack trace:
+[10-Nov-2018 22:22:34 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteTour.php:0
+[10-Nov-2018 23:18:30 UTC] PHP Notice:  Undefined offset: 0 in C:\wamp64\www\museum_development\php\deleteLocation.php on line 40
+[10-Nov-2018 23:18:30 UTC] PHP Stack trace:
+[10-Nov-2018 23:18:30 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteLocation.php:0
+[10-Nov-2018 23:18:30 UTC] PHP Notice:  Undefined offset: 1 in C:\wamp64\www\museum_development\php\deleteLocation.php on line 41
+[10-Nov-2018 23:18:30 UTC] PHP Stack trace:
+[10-Nov-2018 23:18:30 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteLocation.php:0
+[10-Nov-2018 23:18:31 UTC] PHP Notice:  Undefined offset: 0 in C:\wamp64\www\museum_development\php\deleteLocation.php on line 40
+[10-Nov-2018 23:18:31 UTC] PHP Stack trace:
+[10-Nov-2018 23:18:31 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteLocation.php:0
+[10-Nov-2018 23:18:31 UTC] PHP Notice:  Undefined offset: 1 in C:\wamp64\www\museum_development\php\deleteLocation.php on line 41
+[10-Nov-2018 23:18:31 UTC] PHP Stack trace:
+[10-Nov-2018 23:18:31 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteLocation.php:0
+[10-Nov-2018 23:18:31 UTC] PHP Notice:  Undefined offset: 0 in C:\wamp64\www\museum_development\php\deleteLocation.php on line 40
+[10-Nov-2018 23:18:31 UTC] PHP Stack trace:
+[10-Nov-2018 23:18:31 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteLocation.php:0
+[10-Nov-2018 23:18:31 UTC] PHP Notice:  Undefined offset: 1 in C:\wamp64\www\museum_development\php\deleteLocation.php on line 41
+[10-Nov-2018 23:18:31 UTC] PHP Stack trace:
+[10-Nov-2018 23:18:31 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteLocation.php:0
+[14-Nov-2018 22:40:56 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in C:\wamp64\www\museum_development\php\updateTour.php on line 58
+[14-Nov-2018 22:40:56 UTC] PHP Stack trace:
+[14-Nov-2018 22:40:56 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\updateTour.php:0
+[14-Nov-2018 22:40:56 UTC] PHP   2. mysqli_fetch_assoc() C:\wamp64\www\museum_development\php\updateTour.php:58
+[14-Nov-2018 23:00:15 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in C:\wamp64\www\museum_development\php\updateTour.php on line 58
+[14-Nov-2018 23:00:15 UTC] PHP Stack trace:
+[14-Nov-2018 23:00:15 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\updateTour.php:0
+[14-Nov-2018 23:00:15 UTC] PHP   2. mysqli_fetch_row() C:\wamp64\www\museum_development\php\updateTour.php:58
+[15-Nov-2018 01:46:41 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, object given in C:\wamp64\www\museum_development\php\updateTour.php on line 57
+[15-Nov-2018 01:46:41 UTC] PHP Stack trace:
+[15-Nov-2018 01:46:41 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\updateTour.php:0
+[15-Nov-2018 01:46:41 UTC] PHP   2. mysqli_free_result() C:\wamp64\www\museum_development\php\updateTour.php:57
+[15-Nov-2018 01:59:48 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in C:\wamp64\www\museum_development\php\updateTour.php on line 57
+[15-Nov-2018 01:59:48 UTC] PHP Stack trace:
+[15-Nov-2018 01:59:48 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\updateTour.php:0
+[15-Nov-2018 01:59:48 UTC] PHP   2. mysqli_free_result() C:\wamp64\www\museum_development\php\updateTour.php:57
+[15-Nov-2018 02:15:53 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in C:\wamp64\www\museum_development\php\updateTour.php on line 58
+[15-Nov-2018 02:15:53 UTC] PHP Stack trace:
+[15-Nov-2018 02:15:53 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\updateTour.php:0
+[15-Nov-2018 02:15:53 UTC] PHP   2. mysqli_free_result() C:\wamp64\www\museum_development\php\updateTour.php:58
+[15-Nov-2018 02:15:53 UTC] PHP Warning:  mysqli_multi_query(): Couldn't fetch mysqli in C:\wamp64\www\museum_development\php\updateTour.php on line 118
+[15-Nov-2018 02:15:53 UTC] PHP Stack trace:
+[15-Nov-2018 02:15:53 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\updateTour.php:0
+[15-Nov-2018 02:15:53 UTC] PHP   2. mysqli_multi_query() C:\wamp64\www\museum_development\php\updateTour.php:118
+[15-Nov-2018 02:15:53 UTC] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in C:\wamp64\www\museum_development\php\updateTour.php on line 130
+[15-Nov-2018 02:15:53 UTC] PHP Stack trace:
+[15-Nov-2018 02:15:53 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\updateTour.php:0
+[15-Nov-2018 02:15:53 UTC] PHP   2. mysqli_error() C:\wamp64\www\museum_development\php\updateTour.php:130
+[15-Nov-2018 02:31:30 UTC] PHP Warning:  mysqli_multi_query(): Couldn't fetch mysqli in C:\wamp64\www\museum_development\php\updateTour.php on line 55
+[15-Nov-2018 02:31:30 UTC] PHP Stack trace:
+[15-Nov-2018 02:31:30 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\updateTour.php:0
+[15-Nov-2018 02:31:30 UTC] PHP   2. mysqli_multi_query() C:\wamp64\www\museum_development\php\updateTour.php:55
+[15-Nov-2018 05:13:37 UTC] PHP Notice:  Undefined variable: row in C:\wamp64\www\museum_development\php\updateTour.php on line 30
+[15-Nov-2018 05:13:37 UTC] PHP Stack trace:
+[15-Nov-2018 05:13:37 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\updateTour.php:0
+[15-Nov-2018 09:15:46 UTC] PHP Notice:  Undefined variable: filePath in C:\wamp64\www\museum_development\php\deleteItem.php on line 45
+[15-Nov-2018 09:15:46 UTC] PHP Stack trace:
+[15-Nov-2018 09:15:46 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteItem.php:0
+[15-Nov-2018 09:15:46 UTC] PHP Notice:  Undefined variable: filePath in C:\wamp64\www\museum_development\php\deleteItem.php on line 45
+[15-Nov-2018 09:15:46 UTC] PHP Stack trace:
+[15-Nov-2018 09:15:46 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteItem.php:0
+[15-Nov-2018 12:06:52 UTC] PHP Notice:  Undefined variable: filePath in C:\wamp64\www\museum_development\php\deleteItem.php on line 45
+[15-Nov-2018 12:06:52 UTC] PHP Stack trace:
+[15-Nov-2018 12:06:52 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteItem.php:0
+[15-Nov-2018 12:06:52 UTC] PHP Notice:  Undefined variable: filePath in C:\wamp64\www\museum_development\php\deleteItem.php on line 45
+[15-Nov-2018 12:06:52 UTC] PHP Stack trace:
+[15-Nov-2018 12:06:52 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteItem.php:0
+[15-Nov-2018 12:06:52 UTC] PHP Notice:  Undefined variable: filePath in C:\wamp64\www\museum_development\php\deleteItem.php on line 45
+[15-Nov-2018 12:06:52 UTC] PHP Stack trace:
+[15-Nov-2018 12:06:52 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteItem.php:0
+[15-Nov-2018 12:16:46 UTC] PHP Notice:  Undefined variable: filePath in C:\wamp64\www\museum_development\php\deleteItem.php on line 45
+[15-Nov-2018 12:16:46 UTC] PHP Stack trace:
+[15-Nov-2018 12:16:46 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteItem.php:0
+[15-Nov-2018 12:16:46 UTC] PHP Notice:  Undefined variable: filePath in C:\wamp64\www\museum_development\php\deleteItem.php on line 45
+[15-Nov-2018 12:16:46 UTC] PHP Stack trace:
+[15-Nov-2018 12:16:46 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteItem.php:0
+[15-Nov-2018 12:16:46 UTC] PHP Notice:  Undefined variable: filePath in C:\wamp64\www\museum_development\php\deleteItem.php on line 45
+[15-Nov-2018 12:16:46 UTC] PHP Stack trace:
+[15-Nov-2018 12:16:46 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteItem.php:0
+[15-Nov-2018 15:18:09 UTC] PHP Notice:  Undefined index: file-0 in C:\wamp64\www\museum_development\php\updateItem.php on line 102
+[15-Nov-2018 15:18:09 UTC] PHP Stack trace:
+[15-Nov-2018 15:18:09 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\updateItem.php:0
+[15-Nov-2018 15:18:26 UTC] PHP Notice:  Undefined index: file-0 in C:\wamp64\www\museum_development\php\updateItem.php on line 102
+[15-Nov-2018 15:18:26 UTC] PHP Stack trace:
+[15-Nov-2018 15:18:26 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\updateItem.php:0
+[15-Nov-2018 15:20:34 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\museum_development\php\updateItem.php on line 102
+[15-Nov-2018 15:20:34 UTC] PHP Stack trace:
+[15-Nov-2018 15:20:34 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\updateItem.php:0
+[15-Nov-2018 15:20:50 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\museum_development\php\updateItem.php on line 102
+[15-Nov-2018 15:20:50 UTC] PHP Stack trace:
+[15-Nov-2018 15:20:50 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\updateItem.php:0
+[15-Nov-2018 16:15:34 UTC] PHP Notice:  Undefined variable: filePath in C:\wamp64\www\museum_development\php\deleteLocation.php on line 45
+[15-Nov-2018 16:15:34 UTC] PHP Stack trace:
+[15-Nov-2018 16:15:34 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteLocation.php:0
+[15-Nov-2018 16:15:34 UTC] PHP Notice:  Undefined variable: filePath in C:\wamp64\www\museum_development\php\deleteLocation.php on line 45
+[15-Nov-2018 16:15:34 UTC] PHP Stack trace:
+[15-Nov-2018 16:15:34 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteLocation.php:0
+[15-Nov-2018 16:15:44 UTC] PHP Notice:  Undefined variable: filePath in C:\wamp64\www\museum_development\php\deleteLocation.php on line 45
+[15-Nov-2018 16:15:44 UTC] PHP Stack trace:
+[15-Nov-2018 16:15:44 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteLocation.php:0
+[15-Nov-2018 16:15:44 UTC] PHP Notice:  Undefined variable: filePath in C:\wamp64\www\museum_development\php\deleteLocation.php on line 45
+[15-Nov-2018 16:15:44 UTC] PHP Stack trace:
+[15-Nov-2018 16:15:44 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteLocation.php:0
+[15-Nov-2018 16:15:44 UTC] PHP Notice:  Undefined variable: filePath in C:\wamp64\www\museum_development\php\deleteLocation.php on line 45
+[15-Nov-2018 16:15:44 UTC] PHP Stack trace:
+[15-Nov-2018 16:15:44 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteLocation.php:0
+[15-Nov-2018 16:33:14 UTC] PHP Notice:  Undefined variable: category in C:\wamp64\www\museum_development\php\updateLocation.php on line 143
+[15-Nov-2018 16:33:14 UTC] PHP Stack trace:
+[15-Nov-2018 16:33:14 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\updateLocation.php:0
+[15-Nov-2018 16:36:21 UTC] PHP Notice:  Undefined variable: category in C:\wamp64\www\museum_development\php\updateLocation.php on line 143
+[15-Nov-2018 16:36:21 UTC] PHP Stack trace:
+[15-Nov-2018 16:36:21 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\updateLocation.php:0
+[15-Nov-2018 16:46:04 UTC] PHP Notice:  Undefined variable: filePath in C:\wamp64\www\museum_development\php\deleteLocation.php on line 45
+[15-Nov-2018 16:46:04 UTC] PHP Stack trace:
+[15-Nov-2018 16:46:04 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteLocation.php:0
+[15-Nov-2018 16:46:04 UTC] PHP Notice:  Undefined variable: filePath in C:\wamp64\www\museum_development\php\deleteLocation.php on line 45
+[15-Nov-2018 16:46:04 UTC] PHP Stack trace:
+[15-Nov-2018 16:46:04 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteLocation.php:0
+[15-Nov-2018 16:46:04 UTC] PHP Notice:  Undefined variable: filePath in C:\wamp64\www\museum_development\php\deleteLocation.php on line 45
+[15-Nov-2018 16:46:04 UTC] PHP Stack trace:
+[15-Nov-2018 16:46:04 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteLocation.php:0
+[15-Nov-2018 16:46:04 UTC] PHP Notice:  Undefined variable: filePath in C:\wamp64\www\museum_development\php\deleteLocation.php on line 45
+[15-Nov-2018 16:46:04 UTC] PHP Stack trace:
+[15-Nov-2018 16:46:04 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteLocation.php:0
+[15-Nov-2018 17:07:18 UTC] PHP Notice:  Undefined variable: filePath in C:\wamp64\www\museum_development\php\deleteLocation.php on line 47
+[15-Nov-2018 17:07:18 UTC] PHP Stack trace:
+[15-Nov-2018 17:07:18 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteLocation.php:0
+[15-Nov-2018 17:07:18 UTC] PHP Notice:  Undefined variable: filePath in C:\wamp64\www\museum_development\php\deleteLocation.php on line 47
+[15-Nov-2018 17:07:18 UTC] PHP Stack trace:
+[15-Nov-2018 17:07:18 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteLocation.php:0
+[15-Nov-2018 17:07:18 UTC] PHP Notice:  Undefined variable: filePath in C:\wamp64\www\museum_development\php\deleteLocation.php on line 47
+[15-Nov-2018 17:07:18 UTC] PHP Stack trace:
+[15-Nov-2018 17:07:18 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteLocation.php:0
+[15-Nov-2018 17:13:39 UTC] PHP Warning:  unlink(../photos/): Permission denied in C:\wamp64\www\museum_development\php\deleteTour.php on line 39
+[15-Nov-2018 17:13:39 UTC] PHP Stack trace:
+[15-Nov-2018 17:13:39 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\deleteTour.php:0
+[15-Nov-2018 17:13:39 UTC] PHP   2. unlink() C:\wamp64\www\museum_development\php\deleteTour.php:39
+[15-Nov-2018 23:20:38 UTC] PHP Warning:  unlink(../photos/): Permission denied in C:\wamp64\www\museum_development\php\updateTour.php on line 42
+[15-Nov-2018 23:20:38 UTC] PHP Stack trace:
+[15-Nov-2018 23:20:38 UTC] PHP   1. {main}() C:\wamp64\www\museum_development\php\updateTour.php:0
+[15-Nov-2018 23:20:38 UTC] PHP   2. unlink() C:\wamp64\www\museum_development\php\updateTour.php:42

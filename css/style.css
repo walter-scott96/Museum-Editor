@@ -1,0 +1,562 @@
+body 
+{
+    margin: 0;
+    padding:0;
+    font-size		     : 100%;	/* Base font size is 14px	#CF5C3F*/
+	font-family		     : Arial, 'Lucida Sans Unicode';
+	line-height		     : 1.5;
+	text-align		     : left;
+    overflow: hidden;
+}
+
+html, body
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body > * {
+  flex-shrink: 0;
+}
+
+#mainContent
+{
+    flex-grow: 1;
+    margin-top: 57px;
+
+}
+
+#page-content
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 1%;
+    text-align: center;
+}
+
+.scrolling-wrapper {
+    display: inline-block;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: 50vw; 
+    margin-bottom: 3.5%;
+}
+.card {
+    display: inline-block;
+    width: 120px;
+    height: 100px;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: auto 100%;
+    margin: 13px;
+    
+}
+.slider-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.selector-title
+{
+    display: inline-block;
+    width: 50vw;
+}
+.selector-title > a > button
+{
+    display: inline;
+    float: right;
+    margin-top: 1.5em;
+    margin-right: 1em;
+    margin-bottom: 2%;
+    padding: 0.5em 1.0em;
+    background-color: #89ba2c;
+    border: none;
+    font-size: 1em;
+    color: #ffffff;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+}
+.selector-title > a > button:hover
+{
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+.selector-title > h1
+{
+    width: 20%;
+    display: inline;
+    float: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: left;
+}
+
+.card > p
+{
+    margin-top: 65%;
+    margin-left: 7%;
+    text-align: left;
+    font-size: 1.15em;
+    line-height: 1.0;
+}
+
+.scrolling-wrapper > p
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.scrolling-wrapper > a
+{
+    border: 3px solid transparent;
+    display: inline-block;
+}
+.scrolling-wrapper > a
+{
+    border: 2px solid transparent; 
+    -webkit-transition: border 0.3s ease-in-out;
+       -moz-transition: border 0.3s ease-in-out;
+        -ms-transition: border 0.3s ease-in-out;
+         -o-transition: border 0.3s ease-in-out;
+            transition: border 0.3s ease-in-out;
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.scrolling-wrapper > a:hover
+{
+    border: 2px solid #000000;
+    -webkit-transition: border 0.3s ease-in-out;
+       -moz-transition: border 0.3s ease-in-out;
+        -ms-transition: border 0.3s ease-in-out;
+         -o-transition: border 0.3s ease-in-out;
+            transition: border 0.3s ease-in-out;
+}
+
+.scrolling-wrapper > a,
+.scrolling-wrapper-edit > a,
+.scrolling-wrapper-photo > a
+{
+    margin-right: 15px;
+}
+#tourWrapper,
+#locationWrapper,
+#itemWrapper
+{
+    text-align: left;
+}
+
+
+.form-container
+{
+    width: 50vw;
+    display: inline-block;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: left;
+}
+
+.form-style-1 {
+    margin:10px auto;
+    max-width: 80%;px;
+    padding: 20px 12px 10px 20px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.form-style-1 label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+.form-style-1 input[type=text],
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea,
+select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none; 
+}
+.form-style-1 input[type=text]:focus,
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus,
+.form-style-1 select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+    width: 49%;
+}
+.right-thumb-btn{
+    float:right;
+    top:-7px;
+    margin-right: 1em;
+}
+
+.form-style-1 .field-long{
+    width: 100%;
+}
+.form-style-1 .field-select{
+    width: 100%;
+}
+.form-style-1 .field-textarea{
+    height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+    background: #89ba2c;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+    background: #89ba2c;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+.form-style-1 .required{
+    color:red;
+}
+
+
+.scrolling-wrapper-edit,
+.scrolling-wrapper-photo {
+    display: inline-block;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: 40vw; 
+    margin-bottom: 3.5%;
+}
+
+.selector-title-edit
+{
+    display: inline-block;
+    width: 40vw;
+}
+.addbtn
+{
+    display: inline;
+    float: right;
+    margin: 1em;
+    padding: 0.5em 1.0em;
+    background-color: #89ba2c;
+    border: none;
+    font-size: 1em;
+    color: #ffffff;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+}
+.addbtn:hover
+{
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+.selector-title-edit > .upload-btn-wrapper
+{
+    float: right;
+}
+.selector-title-edit > h2
+{
+    width: 30%;
+    display: inline;
+    float: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: left;
+}
+
+
+.scrolling-wrapper-edit > a
+{
+    display: inline-block;
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.unselectedEntry
+{
+    border: 2px solid transparent; 
+    -webkit-transition: border 0.3s ease-in-out;
+       -moz-transition: border 0.3s ease-in-out;
+        -ms-transition: border 0.3s ease-in-out;
+         -o-transition: border 0.3s ease-in-out;
+            transition: border 0.3s ease-in-out; 
+}
+.unselectedEntry:hover
+{
+    border: 2px solid #000000;
+    -webkit-transition: border 0.3s ease-in-out;
+       -moz-transition: border 0.3s ease-in-out;
+        -ms-transition: border 0.3s ease-in-out;
+         -o-transition: border 0.3s ease-in-out;
+            transition: border 0.3s ease-in-out;
+}
+.selectedEntry
+{
+    border: 2px solid #89ba2c;
+    -webkit-transition: border 0.3s ease-in-out;
+       -moz-transition: border 0.3s ease-in-out;
+        -ms-transition: border 0.3s ease-in-out;
+         -o-transition: border 0.3s ease-in-out;
+            transition: border 0.3s ease-in-out;
+}
+
+.entryCheckHidden
+{
+    visibility: hidden;
+    position: absolute;
+	width: 20px;
+	height: 20px;
+    border-radius: 0% 0% 0% 100%;
+	background-color: #89ba2c;
+    text-align: right;
+    line-height: 1.2;
+    padding-right: 5px;
+	top: 0;
+	right: 0;
+    opacity: 0;
+    -webkit-transition: visibility 0s linear 300ms, opacity 0.3s ease-in-out;
+       -moz-transition: visibility 0s linear 300ms, opacity 0.3s ease-in-out;
+        -ms-transition: visibility 0s linear 300ms, opacity 0.3s ease-in-out;
+         -o-transition: visibility 0s linear 300ms, opacity 0.3s ease-in-out;
+            transition: visibility 0s linear 300ms, opacity 0.3s ease-in-out;
+}
+.entryCheckVisible
+{
+    visibility: visible;
+    position: absolute;
+	width: 20px;
+	height: 20px;
+    border-radius: 0% 0% 0% 100%;
+	background-color: #89ba2c;
+    text-align: right;
+    line-height: 1.2;
+    padding-right: 5px;
+	top: 0;
+	right: 0;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease-in-out;
+       -moz-transition: opacity 0.3s ease-in-out;
+        -ms-transition: opacity 0.3s ease-in-out;
+         -o-transition: opacity 0.3s ease-in-out;
+            transition: opacity 0.3s ease-in-out;
+}
+
+
+.scrolling-wrapper-photo > a
+{
+    display: inline-block;
+    color: #fff;
+}
+.selectedPhoto
+{
+    border: 2px solid transparent; 
+    -webkit-transition: border 0.3s ease-in-out;
+       -moz-transition: border 0.3s ease-in-out;
+        -ms-transition: border 0.3s ease-in-out;
+         -o-transition: border 0.3s ease-in-out;
+            transition: border 0.3s ease-in-out;
+
+}
+.selectedPhoto:hover
+{
+    border: 2px solid red;
+    -webkit-transition: border 0.3s ease-in-out;
+       -moz-transition: border 0.3s ease-in-out;
+        -ms-transition: border 0.3s ease-in-out;
+         -o-transition: border 0.3s ease-in-out;
+            transition: border 0.3s ease-in-out;
+}
+.selectedPhoto:hover .photoRemove
+{
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease-in-out;
+       -moz-transition: opacity 0.3s ease-in-out;
+        -ms-transition: opacity 0.3s ease-in-out;
+         -o-transition: opacity 0.3s ease-in-out;
+            transition: opacity 0.3s ease-in-out;
+}
+#selectedPhotos a 
+{
+    position: relative;
+}
+
+.photoRemove
+{
+    visibility: hidden;
+    position: absolute;
+	width: 20px;
+	height: 20px;
+    border-radius: 0% 0% 0% 100%;
+	background-color: red;
+    text-align: right;
+    line-height: 1.2;
+    padding-right: 5px;
+	top: 0;
+	right: 0;
+    opacity: 0;
+    -webkit-transition: visibility 0s linear 300ms, opacity 0.3s ease-in-out;
+       -moz-transition: visibility 0s linear 300ms, opacity 0.3s ease-in-out;
+        -ms-transition: visibility 0s linear 300ms, opacity 0.3s ease-in-out;
+         -o-transition: visibility 0s linear 300ms, opacity 0.3s ease-in-out;
+            transition: visibility 0s linear 300ms, opacity 0.3s ease-in-out;
+}
+
+
+.inputPhoto
+{
+    border: 2px solid transparent; 
+    -webkit-transition: border 0.3s ease-in-out;
+       -moz-transition: border 0.3s ease-in-out;
+        -ms-transition: border 0.3s ease-in-out;
+         -o-transition: border 0.3s ease-in-out;
+            transition: border 0.3s ease-in-out;
+
+}
+.inputPhoto:hover
+{
+    border: 2px solid #000000;
+    -webkit-transition: border 0.3s ease-in-out;
+       -moz-transition: border 0.3s ease-in-out;
+        -ms-transition: border 0.3s ease-in-out;
+         -o-transition: border 0.3s ease-in-out;
+            transition: border 0.3s ease-in-out;
+}
+
+#locationWrapper a,
+#itemWrapper a
+{
+    position: relative;
+}
+
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+  border: 2px solid gray;
+  color: black;
+  background-color: white;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 50px;
+  position: absolute;
+    display: inline-block;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+#delete-btn{
+    float:right; 
+    background: red;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 1.5% 2%;
+    border: 1px solid #888;
+    width: 45%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.closeModal {
+    color: gray;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closeModal:hover,
+.closeModal:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#map
+{
+    height: 400px;
+    width: 100%;
+    margin-bottom: 2%;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=UTF-8>
+		<title>
+			Location
+		</title>
+        <link rel="shortcut icon" type="image/png" href="../img/favicon.png"/>
+        <link href="../css/style.css" rel="stylesheet" type="text/css">
+		<link href="../css/navbar.css" rel="stylesheet" type="text/css">
+        <link href="../css/preview.css" rel="stylesheet" type="text/css">
+        <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=
+AIzaSyDs1atnFB10LKcI8SpCmd4vCi2ru2WSN_c&region=NZ"></script>
+        <script type="text/javascript" src="../js/script.js"></script>
+        <script type="text/javascript">google.maps.event.addDomListener(window, 'load', initialize);</script>
+	</head>
+
+	<body onload="locationSetup()">      
+        <div id='navmenu'>
+            <ul>
+                <li class='navhome'><a href='../index.html'><span>Cambridge Museum</span></a></li>
+                <li class='navitem'><a href='#'><span>Logout</span></a></li>
+                <li class='navitem'><a href='#'><span>Username</span></a></li>
+            </ul>
+        </div>
+        
+        <div id="mainContent">
+            <div id='page-content' class='content-transition'>
+                <div class='form-container'>
+                    <form method="POST">
+                        <ul class="form-style-1">
+                            <li>
+                                <label>Location Name</label>
+                                <input type="text" name="name" id="name" class="field-divided" placeholder="Name" />&nbsp;
+                            </li>
+                            <li>
+                                <label>Location Description</label>
+                                <textarea name="description" id="description" class="field-divided field-textarea" placeholder="Description..."></textarea>&nbsp;
+                            </li>
+                            <li>
+                                <div class="upload-btn-wrapper">
+                                    <button class="btn">Upload a thumbnail</button>
+                                    <input type="file" name="thumbnail" id="thumbnail" />
+                                </div>
+                                <div class="upload-btn-wrapper" style="margin-left: 4%;">
+                                    <button type="button" id="locBtn" class="btn" onclick="openModal()">Set location</button>
+                                </div>
+                                <!-- The Modal -->
+                                <div id="myModal" class="modal">
+                                    <!-- Modal content -->
+                                    <div class="modal-content">
+                                        <span class="closeModal" onclick="closeModal()">&times;</span>
+                                        <h2>Select a location on the map</h2>
+                                        <div id="map"></div>
+                                        <button type="button" id="setLocBtn" class="btn" onclick="setLocation()">Set location</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div id='selectors'>
+                                    <div class='selector-title-edit'>
+                                        <h2>Photos</h2>
+                                        <div class="upload-btn-wrapper">
+                                            <button class="addbtn" type="button" id="addPhotos">Add</button>
+                                            <input type="file" name="photos[]" id="photos" onchange="displayPhotos(this);" multiple/>
+                                        </div>
+                                    </div>
+                                    <div class="scrolling-wrapper-photo" id="selectedPhotos">
+                                        <!--
+                                        <a href="#"><div class="card"></div><div id="photoRemove">X</div></a>
+                                        -->
+                                    </div>
+                                </div>
+                                <div id='selectors'>
+                                    <div class='selector-title-edit'>
+                                        <h2>Related Museum Items</h2>
+                                    </div>
+                                    <div class="scrolling-wrapper-edit" id="itemWrapper">
+                                        <!--
+                                        <a href="#" onclick="clicked(event)"><div class="card"><p>Name</p></div></a>
+                                        -->
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <input type="button" value="Save Changes" onclick="saveLocation()" />
+                                <input type="button" value="Delete Location" id="delete-btn" onclick="deleteLocation()" />
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+            <button type="button" class="preview-btn" onclick="move()">Preview</button>
+            <div id='preview-container' class='preview-transition'>
+                <div id='preview-close'>
+                    <a href="javascript:void(0);" onClick="move()" class="close"></a>
+                </div>
+                <div id='preview'>
+                    <!-- Preview box
+                    <div id='preview-content'>
+                        Preview Here
+                    </div>
+                    -->
+                </div>
+            </div>
+        </div>
+	</body>
+</html>
